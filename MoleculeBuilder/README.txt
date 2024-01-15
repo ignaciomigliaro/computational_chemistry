@@ -1,0 +1,1 @@
+This is a script used in my Ph.D (Ignacio Migliaro) used to generated hundreds of thousands of Frustrated Lewis Structures. It combines Lewis acids (LA) and Lewis bases (LB) with their substituents. https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00862
