@@ -2,7 +2,7 @@
 
 # Function to check if there are pending jobs in the queue
 check_pending_jobs() {
-    pending_jobs=$(squeue -u im0225 -p short.36 | awk '$5 == "PD" {print}' | wc -l)
+    pending_jobs=$(squeue -u <your_username> -p short.36 | awk '$5 == "PD" {print}' | wc -l)
     echo "$pending_jobs"
 }
 
